@@ -1,0 +1,13 @@
+Computer Science 4318
+Assignment #5
+Due: Tuesday, November 14
+60 points
+
+
+A group of N faculty members are sitting around a bowl of candy, which holds M pieces of candy.  Each of the N faculty members spends his life thinking and eating candy.  They must have a piece of candy to think.  One Teaching Assistant spends his life sleeping except that when the bowl is empty he is woken up and fills the candy bowl.  Only one faculty member can access the bowl at a time.
+
+
+Write a Java solution using either semaphores or a synchronized class representing the bowl.  Output enough information so that it demonstrates that the program is working as expected. Hint: start with Bounded Buffer
+
+Turn in working source code to Blackboard.
+
