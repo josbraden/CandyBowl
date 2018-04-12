@@ -6,4 +6,9 @@ CandyBowl: CandyBowl.java
 class: CandyBowl.java
 	javac CandyBowl.java
 native: CandyBowl.java
-	gcj -o CandyBowl CandyBowl.java --main=CandyBowl.java
+	gcj -o CandyBowl CandyBowl.java --main=CandyBowl
+help:
+	@echo "Targets: CandyBowl, class, native, help"
+	@echo "    CandyBowl (default): creates executable .jar file"
+	@echo "    class: Just compiles to classes with javac"
+	@echo "    native: Tries to compile with GNU java comiler to native code"
